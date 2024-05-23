@@ -1,6 +1,4 @@
-C# övning - Flöde via loopar och strängmanipulation
-Övningen kan skrivas helt i programklassen med menyn i Main-metoden.
-
+C# - Flöde via loopar och strängmanipulation
 Huvudmeny
 Skapa en huvudmeny för programmet som håller det vid liv och informerar användaren. För att skapa programmets huvudmeny ska ni göra följande: 1. Berätta för användaren att de har kommit till huvudmenyn och de kommer navigera genom att skriva in siffror för att testa olika funktioner. 2. Skapa skalet till en Switch-sats som till en början har Två Cases. Ett för ”0” som stänger ner programmet och ett default som berättar att det är felaktig input. 3. Skapa en oändlig iteration, alltså något som inte tar slut innan vi säger till att den ska ta slut. Detta löser ni med att skapa en egen bool med tillhörande while-loop. 4. Bygg ut menyn med val att exekvera de övriga övningarna.
 
@@ -19,7 +17,3 @@ Ni har tidigare lärt er hur vi omvandlar strängar till integers (tex int.Parse
 
 Händelseförloppet förklaras nedan: 1. Användaren anger en mening med minst 3 ord 2. Programmet delar upp strängen med split-metoden på varje mellanslag 3. Programmet plockar ut den tredje strängen (ordet) ur input 4. Programmet skriver ut den tredje strängen(ordet)
 
-Dokumentera
-Glöm inte att kommentera er kod noga så att ni eller andra enkelt kan förstå den i framtiden.
-
-Extra uppgifter för de som har tid över: 1. Validera alla inputs från användaren. Se till att programmet inte kraschar vid felaktig input. 2. Barn under fem och pensionärer över 100 går gratis. 3. Hantera flera mellanslag i rad i del 3. 4. Vad du tycker verkar vara intressant att få med eller vill träna på! Lycka till!
